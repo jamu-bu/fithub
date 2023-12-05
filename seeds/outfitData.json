@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "outfit_name" : "example 1",
+        "likes": 10,
+        "user_id": 2
+    },
+    {
+        "id": 2,
+        "outfit_name" : "example 2",
+        "likes": 5,
+        "user_id": 3
+    },
+    {
+        "id": 3,
+        "outfit_name" : "example 3",
+        "user_id": 1
+    },
+    {
+        "id": 4,
+        "outfit_name" : "example 4",
+        "likes": 8,
+        "user_id": 4
+    }
+]

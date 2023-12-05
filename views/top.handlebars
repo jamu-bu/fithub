@@ -1,0 +1,40 @@
+<div>
+    <h2 id="section-title">T O P F I T S</h2>
+    <div class="container-fluid" id="yours">
+        <div class="row">
+            {{#each outfits as |outfit|}}
+            <div class="col-3">
+                <div class="yours-card text-center border" data-id="{{outfit.id}}">
+                    <a href="/fit/{{outfit.id}}">
+                        <h2 class="mx-auto mt-2">{{outfit.outfit_name}}</h2>
+
+                        <h5 class="mx-auto text-dark lead">by @{{outfit.user.name}}</h5>
+                        <div class="image-wrapper">
+                            <div class="container fit-container" id="your-fit">
+                                {{#each outfit.products as |product|}}
+                                <div id="category-id-{{product.category_id}}">
+                                    <h4 class="text-dark">{{product.brand_name}}</h4>
+                                    {{#if product.season}}
+                                    <h5 class="mx-auto text-dark lead">{{product.season}}</h5>
+                                    {{/if}}
+                                    <p class="text-dark lead">${{product.retail_price}}</p>
+                                    <img src="{{product.image_url}}" class="card-img object-fit-fill"
+                                        alt="top-card-img">
+                                </div>
+                                {{/each}}
+                            </div>
+                        </div>
+                        <div class="like-button like-box mx-auto" data-id="{{outfit.id}}">
+                            <i class="like-button fa-regular fa-thumbs-up" data-id="{{outfit.id}}"></i>
+                            <p class="like-button" data-id="{{outfit.id}}">{{outfit.likes}}</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</div>
+
+<script src="https://kit.fontawesome.com/c497264cf9.js" crossorigin="anonymous"></script>
+<script src="js/like.js"></script>

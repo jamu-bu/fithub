@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FH.//</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/landing.css" />
+  </head>
+  <body id="landing">
+    <div class="container-fluid" id="heading">
+        <div id="FHlogo">
+            <svg width="80" height="80">
+                <circle cx="40" cy="40" r="40" fill="white" />
+                <text x="50%" y="50%" text-anchor="middle" fill="black" font-size="30px" font-family="Bodoni Moda" dy=".3em">FH.//</text>
+              <defs>
+                <style>
+                  @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,700;1,6..96,600&family=Libre+Bodoni:ital@1&display=swap');
+                </style>
+              </defs>
+              </svg>
+        </div>
+        <div id="entrance" class="text-center">
+          <h1 id="logoName">F I T H U B .//</h1>
+        </div>
+        <div id="loginForm" class="text-center">
+            <form>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="email">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" id="password" placeholder="password">
+                </div>
+                <div>
+                    <button type="submit" class="button" id="loginButton"><h3>L O G I N</h3></button>
+                </div>       
+              </form>            
+        </div>
+    </div>
+    <div>
+        <!-- Modal -->
+        <div class="modal" id="signupModal" tabindex="-1" aria-labelledby="signupModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <div class="card text-black" style="background-color: #eee;">
+              <div class="card-body p-md-5">
+                <div class="row justify-content-center">
+                  <div class="">
+                    <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
+                    <form class="mx-1 mx-md-4">
+                      <div class="d-flex flex-row align-items-center mb-4">
+                        <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                        <div class="form-outline flex-fill mb-0">
+                          <input type="text" id="usernameSignup" class="form-control" />
+                          <label class="form-label" for="form3Example1c">Your Name</label>
+                        </div>
+                      </div>
+                      <div class="d-flex flex-row align-items-center mb-4">
+                        <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                        <div class="form-outline flex-fill mb-0">
+                          <input type="email" id="emailSignup" class="form-control" />
+                          <label class="form-label" for="form3Example3c">Your Email</label>
+                        </div>
+                      </div>
+    
+                      <div class="d-flex flex-row align-items-center mb-4">
+                        <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
+                        <div class="form-outline flex-fill mb-0">
+                          <input type="password" id="passwordSignup" class="form-control" />
+                          <label class="form-label" for="form3Example4c">Password</label>
+                        </div>
+                      </div>
+    
+    
+                      <div class="form-check d-flex justify-content-center mb-5">
+                        <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" />
+                        <label class="form-check-label" for="form2Example3">
+                          I agree all statements in <a href="#!">Terms of service</a>
+                        </label>
+                      </div>
+    
+                      <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                        <button type="button" id="signupButton" class="button"><h3>Register</h3></button>
+                      </div>
+                    </form>
+    
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        </div>
+        <a href="#" data-bs-toggle="modal" data-bs-target="#signupModal"><h3 style="color:white">signup</h3></a>
+    </div> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./js/login.js"></script>
+  </body>
+</html>

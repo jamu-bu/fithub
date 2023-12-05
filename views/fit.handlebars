@@ -1,0 +1,32 @@
+<div>
+    <pre><h2 id="section-title"> S E L E C T E D  F I T </h2></pre>
+    <div class="container-fluid" id="yours">
+        <div class="row justify-content-center">
+            <div class="col-6">
+                    <div class="text-center border" data-id="{{outfit.id}}">
+                        <h2 class="mx-auto mt-2">{{fit.outfit_name}}</h2>
+                        <p class="mx-auto text-dark">by @{{fit.user.name}}</p>
+                        <p class="mx-auto text-dark">👍 {{fit.likes}}</p>
+
+                        <div class="image-wrapper">
+                            <div class="container fit-container" id="your-fit">
+                                {{#each fit.products as |product|}}
+                                <div id="category-id-{{product.category_id}}">
+                                    <h4 class="text-dark">{{product.brand_name}}</h4>
+                                    {{#if product.season}}   
+                                    <h5 class="mx-auto text-dark lead">{{product.season}}</h5>
+                                    {{/if}}
+                                    <p class="text-dark lead">${{product.retail_price}}</p>
+                                    <img src="{{product.image_url}}" class="card-img object-fit-fill"
+                                        alt="top-card-img">
+                                </div>
+                                {{/each}}
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

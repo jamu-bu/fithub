@@ -1,0 +1,58 @@
+[
+    {
+        "outfit_id": 1,
+        "product_id": 1
+    },
+    {
+        "outfit_id": 1,
+        "product_id": 8
+    },
+    {
+        "outfit_id": 1,
+        "product_id": 15
+    },
+    {
+        "outfit_id": 1,
+        "product_id": 26
+    },
+    {
+        "outfit_id": 2,
+        "product_id": 4
+    },
+    {
+        "outfit_id": 2,
+        "product_id": 13
+    },
+    {
+        "outfit_id": 2,
+        "product_id": 17
+    },
+    {
+        "outfit_id": 3,
+        "product_id": 2
+    },
+    {
+        "outfit_id": 3,
+        "product_id": 12
+    },
+    {
+        "outfit_id": 3,
+        "product_id": 21
+    },
+    {
+        "outfit_id": 3,
+        "product_id": 22
+    },
+    {
+        "outfit_id": 4,
+        "product_id": 3
+    },
+    {
+        "outfit_id": 4,
+        "product_id": 9
+    },
+    {
+        "outfit_id": 4,
+        "product_id": 19
+    }
+]

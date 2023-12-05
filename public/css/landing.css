@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#yours{
+   display: flex;
+   flex-direction: column;
+}
+
+.your-fit {
+ width: 64vw;
+ align-content: center;
+}
+
+
+#section-title {
+    text-align: center;
+}
+
+h3, h2{
+    font-family: "Bodoni Moda";
+}
+#siteName{
+    font-family: "Bodoni Moda";
+    font-size: 8vh;
+    font-weight: 900;
+    margin-left: -5%;
+    
+}
+.nav-link, .nav{
+    color: black;
+    --bs-nav-link-hover-color: black;
+}
+button{
+    background: black;
+    border: 0px;
+    color: white;
+}
+
+#entrance{
+    position: absolute;
+    top:  50%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+}
+
+#loginForm{
+    position: absolute;
+    top:  69%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#heading{
+    padding-top: 2vh;
+}
+
+#loginButton{
+    font-family: "Bodoni Moda";
+    color: white;
+    font-size: 7vh;
+    background-color: black;
+    padding: 2vh;
+}
+
+#email, #password{
+    background-color: black;
+    color: white;
+    margin: 1vh;
+}
+.form-control::-webkit-input-placeholder {
+    color: white;
+    font-family: "Bodoni Moda";
+    opacity: 50%;
+}
+
+#LOGOUT {
+    text-align: center;
+}
+
+#logoName{
+    color: white;
+    background-color: black;
+    font-family: "Bodoni Moda";
+}
+#sign-up-form {
+    width: 50vh;
+}

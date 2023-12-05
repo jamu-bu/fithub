@@ -1,0 +1,201 @@
+[
+  {
+    "id": 1,
+    "brand_name": "Human Made",
+    "season": "SS20",
+    "retail_price": 88,
+    "category_id": 1,
+    "image_url": "https://res.cloudinary.com/dfxr2mgqb/image/upload/v1698172107/HUMAN_MADE_f8i4ix.png"
+  },
+  {
+    "id": 2,
+    "brand_name": "Off-White",
+    "season": "FW23",
+    "retail_price": 170,
+    "category_id": 1,
+    "image_url": "https://res.cloudinary.com/dfxr2mgqb/image/upload/v1698172107/OFF-WHITE_jszdak.png"
+  },
+  {
+    "id": 3,
+    "brand_name": "Stussy",
+    "season": "SS21",
+    "retail_price": 60,
+    "category_id": 1,
+    "image_url": "https://res.cloudinary.com/dfxr2mgqb/image/upload/v1698172108/STUSSY_wnl7bt.png"
+  },
+  {
+    "id": 4,
+    "brand_name": "Hello Kitty",
+    "season": "SS19",
+    "retail_price": 30,
+    "category_id": 1,
+    "image_url": "https://res.cloudinary.com/dfxr2mgqb/image/upload/v1698172106/HELLO_KITTY_x0phkb.png"
+  },
+  {
+    "id": 5,
+    "brand_name": "Uniqlo",
+    "season": "SS21",
+    "retail_price": 35,
+    "category_id": 1,
+    "image_url": "https://res.cloudinary.com/dfxr2mgqb/image/upload/v1698172108/UNIQLO_wekdp5.png"
+  },
+  {
+    "id": 6,
+    "brand_name": "Sandro",
+    "season": "SS23",
+    "retail_price": 200,
+    "category_id": 1,
+    "image_url": "https://res.cloudinary.com/dfxr2mgqb/image/upload/v1698172108/SANDRO_c1c84t.png"
+  },
+  {
+    "id": 7,
+    "brand_name": "Chanel",
+    "season": "SS85",
+    "retail_price": 8000,
+    "category_id": 1,
+    "image_url": "https://res.cloudinary.com/dfxr2mgqb/image/upload/v1698173110/CHANEL_cs8zn6.png"
+  },
+  {
+    "id": 8,
+    "brand_name": "Denim Tears",
+    "season": "SS21",
+    "retail_price": 295,
+    "category_id": 2,
+    "image_url": "https://res.cloudinary.com/dfxr2mgqb/image/upload/v1698172038/Untitled_design_3_echjer.png"
+  },
+  {
+    "id": 9,
+    "brand_name": "Almas",
+    "season": "FW22",
+    "retail_price": 105,
+    "category_id": 2,
+    "image_url": "https://res.cloudinary.com/dfxr2mgqb/image/upload/v1698172040/Untitled_design_7_tmappu.png"
+  },
+  {
+    "id": 10,
+    "brand_name": "Akris",
+    "season": "FW23",
+    "retail_price": 1290,
+    "category_id": 2,
+    "image_url": "https://res.cloudinary.com/dfxr2mgqb/image/upload/v1698172039/Untitled_design_6_kapnlv.png"
+  },
+  {
+    "id": 11,
+    "brand_name": "Phillim Lim",
+    "season": "FW23",
+    "retail_price": 475,
+    "category_id": 2,
+    "image_url": "https://res.cloudinary.com/dfxr2mgqb/image/upload/v1698172040/Untitled_design_uyqwtf.png"
+  },
+  {
+    "id": 12,
+    "brand_name": "Carhartt",
+    "season": "FW22",
+    "retail_price": 100,
+    "category_id": 2,
+    "image_url": "https://res.cloudinary.com/dfxr2mgqb/image/upload/v1698172039/Untitled_design_4_gtcsow.png"
+  },
+  {
+    "id": 13,
+    "brand_name": "Balenciaga",
+    "season": "FW23",
+    "retail_price": 1080,
+    "category_id": 2,
+    "image_url": "https://res.cloudinary.com/dfxr2mgqb/image/upload/v1698172039/Untitled_design_5_i0mkrm.png"
+  },
+  {
+    "id": 14,
+    "brand_name": "Dickies",
+    "retail_price": 50,
+    "category_id": 2,
+    "image_url": "https://res.cloudinary.com/dfxr2mgqb/image/upload/v1698172039/Untitled_design_2_jrksos.png"
+  },
+  {
+    "id": 15,
+    "brand_name": "Jordan",
+    "retail_price": 180,
+    "category_id": 3,
+    "image_url": "https://res.cloudinary.com/dfxr2mgqb/image/upload/v1698172071/Untitled_design_4_gmjxfd.png"
+  },
+  {
+    "id": 16,
+    "brand_name": "Commes Des Garcon",
+    "retail_price": 160,
+    "category_id": 3,
+    "image_url": "https://res.cloudinary.com/dfxr2mgqb/image/upload/v1698172072/Untitled_design_fgaote.png"
+  },
+  {
+    "id": 17,
+    "brand_name": "Doc Martins",
+    "retail_price": 150,
+    "category_id": 3,
+    "image_url": "https://res.cloudinary.com/dfxr2mgqb/image/upload/v1698172071/Untitled_design_1_sk6nnw.png"
+  },
+  {
+    "id": 18,
+    "brand_name": "Golf Le Fleur",
+    "retail_price": 305,
+    "category_id": 3,
+    "image_url": "https://res.cloudinary.com/dfxr2mgqb/image/upload/v1698172072/Untitled_design_6_whj66a.png"
+  },
+  {
+    "id": 19,
+    "brand_name": "Suicoke",
+    "retail_price": 450,
+    "category_id": 3,
+    "image_url": "https://res.cloudinary.com/dfxr2mgqb/image/upload/v1698172070/Untitled_design_2_uvbk7f.png"
+  },
+  {
+    "id": 20,
+    "brand_name": "Miu Miu",
+    "retail_price": 1080,
+    "category_id": 3,
+    "image_url": "https://res.cloudinary.com/dfxr2mgqb/image/upload/v1698175003/Untitled_design_uv2e74.png"
+  },
+  {
+    "id": 21,
+    "brand_name": "Prada",
+    "retail_price": 1790,
+    "category_id": 3,
+    "image_url": "https://res.cloudinary.com/dfxr2mgqb/image/upload/v1698172071/Untitled_design_3_bsare2.png"
+  },
+  {
+    "id": 22,
+    "brand_name": "Versace",
+    "season": "FW23",
+    "retail_price": 372,
+    "category_id": 4,
+    "image_url": "https://res.cloudinary.com/dfxr2mgqb/image/upload/v1698172020/VERSACE_i9ivcs.png"
+  },
+  {
+    "id": 23,
+    "brand_name": "Stella McCartney",
+    "season": "FW23",
+    "retail_price": 320,
+    "category_id": 4,
+    "image_url": "https://res.cloudinary.com/dfxr2mgqb/image/upload/v1698172020/STELLA_e0kfns.png"
+  },
+  {
+    "id": 24,
+    "brand_name": "Jacquemus",
+    "season": "FW22",
+    "retail_price": 125,
+    "category_id": 4,
+    "image_url": "https://res.cloudinary.com/dfxr2mgqb/image/upload/v1698172019/JACQ_u3ukyg.png"
+  },
+  {
+    "id": 25,
+    "brand_name": "Casio",
+    "retail_price": 60,
+    "category_id": 4,
+    "image_url": "https://res.cloudinary.com/dfxr2mgqb/image/upload/v1698172019/CASIO_dwjpgq.png"
+  },
+  {
+    "id": 26,
+    "brand_name": "G-Shock",
+    "retail_price": 100,
+    "category_id": 4,
+    "image_url": "https://res.cloudinary.com/dfxr2mgqb/image/upload/v1698172019/G-SHOCK_lh8uze.png"
+  }
+]
+

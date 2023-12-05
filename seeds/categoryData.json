@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "category_name": "Tops"
+    },
+    {
+        "id": 2,
+        "category_name": "Bottoms"
+    },
+    {
+        "id": 3,
+        "category_name": "Shoes"
+    },
+    {
+        "id": 4,
+        "category_name": "Accessories"
+    }
+]
